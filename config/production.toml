@@ -3,7 +3,7 @@ port = 8080
 rpc_node = 'https://a.earthshare.network'
 admin_role = 'faucet'
 [storage]
-type = 's3'
+type = 'memory'
 [[log]]
 level = 'info'
 out = 'stdout'
