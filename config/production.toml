@@ -14,4 +14,4 @@ port = '5432'
 username = 'faucet'
 dialect = 'postgres'
 [database.dialectOptions]
-ssl = true
+ssl = false
