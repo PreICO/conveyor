@@ -3,6 +3,7 @@
   "version": "1.1.1",
   "private": true,
   "scripts": {
+    "build": "tsc -p tsconfig.json --outDir lib",
     "test": "make ci-test"
   },
   "engines": {
