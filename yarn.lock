@@ -89,12 +89,12 @@
   dependencies:
     symbol-observable "^1.2.0"
 
-"@steemit/koa-jsonrpc@^1.1.2":
+"@steemit/koa-jsonrpc@ssh://git@github.com:PreICO/koa-jsonrpc.git#semver:^1.1.2":
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@steemit/koa-jsonrpc/-/koa-jsonrpc-1.1.2.tgz#2f50b978a9728e83427dda9c31383a0707bf0340"
+  resolved "ssh://git@github.com:PreICO/koa-jsonrpc.git#c9e19bdfec737ec95ac64a34777994e58e5c8e37"
   dependencies:
     "@steemit/rpc-auth" "^1.1.1"
-    dsteem "^0.8.6"
+    dsteem "ssh://git@github.com:PreICO/dsteem.git#semver:^0.8.6"
     uuid "^3.2.1"
     verror "^1.10.0"
 
@@ -1253,9 +1253,9 @@ drbg.js@^1.0.1:
     create-hash "^1.1.2"
     create-hmac "^1.1.4"
 
-dsteem@^0.8.6:
+"dsteem@ssh://git@github.com:PreICO/dsteem.git#semver:^0.8.6":
   version "0.8.7"
-  resolved "https://registry.yarnpkg.com/dsteem/-/dsteem-0.8.7.tgz#71160fd3dc70b404bb24c17b88cfaef6676c5c7e"
+  resolved "ssh://git@github.com:PreICO/dsteem.git#56611bece894b9ef014195364a356159167846db"
   dependencies:
     bs58 "^4.0.1"
     bytebuffer "^5.0.1"
@@ -1265,9 +1265,9 @@ dsteem@^0.8.6:
     verror "^1.10.0"
     whatwg-fetch "^2.0.3"
 
-dsteem@^0.9.0:
+"dsteem@ssh://git@github.com:PreICO/dsteem.git#semver:^9.0.0":
   version "0.9.0"
-  resolved "https://registry.yarnpkg.com/dsteem/-/dsteem-0.9.0.tgz#43daa6107035a399e7a2e56d716ed4fd5d8cbea8"
+  resolved "ssh://git@github.com:PreICO/dsteem.git#aef104fd13301b41037e9eafe413abaf6ab6a494"
   dependencies:
     bs58 "^4.0.1"
     bytebuffer "^5.0.1"

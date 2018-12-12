@@ -10,12 +10,12 @@
     "node": ">=8"
   },
   "dependencies": {
-    "@steemit/koa-jsonrpc": "^1.1.2",
+    "@steemit/koa-jsonrpc": "ssh://git@github.com:PreICO/koa-jsonrpc.git#semver:^1.1.2",
     "abstract-blob-store": "^3.2.0",
     "aws-sdk": "^2.127.0",
     "bunyan": "^2.0.2",
     "config": "^2.0.1",
-    "dsteem": "^0.9.0",
+    "dsteem": "ssh://git@github.com:PreICO/dsteem.git#semver:^9.0.0",
     "got": "9.3.1",
     "koa": "^2.3.0",
     "koa-router": "^7.2.1",
@@ -41,7 +41,6 @@
     "@types/sequelize": "^4.0.79",
     "@types/url-parse": "^1.4.1",
     "@types/uuid": "^3.4.2",
-    "dsteem": "^0.8.5",
     "jrgen": "^2.0.0",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.17.0",
