@@ -6,7 +6,7 @@ admin_role = 'faucet'
 type = 'memory'
 [[log]]
 level = 'info'
-out = 'stdout'
+out = 'stderr'
 [database]
 database = 'faucet'
 host = 'faucet-db'
