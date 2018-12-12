@@ -10,6 +10,7 @@ out = 'stderr'
 [database]
 database = 'faucet'
 host = 'faucet-db'
+port = '5432'
 username = 'faucet'
 dialect = 'postgres'
 [database.dialectOptions]
