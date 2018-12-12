@@ -14,19 +14,19 @@ before(() => {
         switch (apiMethod) {
             case 'database_api.get_dynamic_global_properties':
                 return {
-                    total_vesting_fund_steem: '100.000 STEEM',
+                    total_vesting_fund_steem: '100.000 ESH',
                     total_vesting_shares: '4200.000000 VESTS',
                 }
             case 'database_api.get_feed_history':
                 return {
                     price_history: [
-                        { base: '5.000 SBD', quote: '1.000 STEEM' }
+                        { base: '5.000 EBD', quote: '1.000 ESH' }
                     ]
                 }
             case 'database_api.get_order_book':
                 return {
-                    bids: [ { order_price: { base: '1.000 SBD', quote: '5.000 STEEM' } } ],
-                    asks: [ { order_price: { base: '5.000 STEEM', quote: '1.000 SBD' } } ],
+                    bids: [ { order_price: { base: '1.000 EBD', quote: '5.000 ESH' } } ],
+                    asks: [ { order_price: { base: '5.000 ESH', quote: '1.000 EBD' } } ],
                 }
             default:
                 throw new Error(`No mock data for: ${ apiMethod }`)

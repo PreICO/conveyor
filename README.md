@@ -2,7 +2,7 @@
 conveyor
 ========
 
-Steemit API
+Earthshare API
 
 
 Feature flags

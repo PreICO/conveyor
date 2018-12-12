@@ -250,10 +250,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.list_drafts%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.list_drafts%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.list_drafts%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.list_drafts%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -278,8 +278,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     }
   },
   'required': [
@@ -292,12 +292,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 
   </table>
@@ -400,10 +400,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.save_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22draft%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.save_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22draft%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.save_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22draft%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.save_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22draft%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22title%22%3A%20%22example%20draft%20title%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22body%22%3A%20%22example%20draft%20body%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -428,8 +428,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'draft': {
       'type': 'object',
@@ -456,12 +456,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'object',
@@ -549,10 +549,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.remove_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.remove_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.remove_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.remove_draft%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22uuid%22%3A%20%22dce998f6-b811-4181-a056-19886a6db7c6%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -577,8 +577,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'uuid': {
       'type': 'string',
@@ -596,12 +596,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
@@ -664,10 +664,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -692,8 +692,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'flag': {
       'type': 'string',
@@ -711,12 +711,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
@@ -766,10 +766,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_feature_flag%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22flag%22%3A%20%22example-flag%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -794,8 +794,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'flag': {
       'type': 'string',
@@ -824,12 +824,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
@@ -893,10 +893,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flags%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flags%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flags%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_feature_flags%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -921,8 +921,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     }
   },
   'required': [
@@ -935,12 +935,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 
   </table>
@@ -1157,10 +1157,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22steemit%40steemit.com%22%2C%0A%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22earthshare%40earthshare.com%22%2C%0A%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -1185,8 +1185,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     }
   },
   'required': [
@@ -1199,12 +1199,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 
   </table>
@@ -1223,7 +1223,7 @@
         'email': {
             'type': 'string',
             'format': 'email',
-            'default': 'steemit@steemit.com'
+            'default': 'earthshare@earthshare.com'
         },
         'phone': {
             'type': 'string',
@@ -1238,7 +1238,7 @@
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'type': 'string',
     'format': 'email',
-    'default': 'steemit@steemit.com'
+    'default': 'earthshare@earthshare.com'
 }</pre>" data-html="true">
   <td>result?.email</td>
   <td>string</td>
@@ -1272,10 +1272,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22userData%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22email%22%3A%20%22steemit%40steemit.com%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22userData%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22email%22%3A%20%22earthshare%40earthshare.com%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22userData%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22email%22%3A%20%22steemit%40steemit.com%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.set_user_data%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22userData%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22email%22%3A%20%22earthshare%40earthshare.com%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%22phone%22%3A%20%22%2B10008675309%22%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -1300,8 +1300,8 @@
   'properties': {
     'account': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'userData': {
       'type': 'object',
@@ -1309,7 +1309,7 @@
         'email': {
           'type': 'string',
           'format': 'email',
-          'default': 'steemit@steemit.com'
+          'default': 'earthshare@earthshare.com'
         },
         'phone': {
           'type': 'string',
@@ -1329,12 +1329,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.account</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'object',
@@ -1342,7 +1342,7 @@
     'email': {
       'type': 'string',
       'format': 'email',
-      'default': 'steemit@steemit.com'
+      'default': 'earthshare@earthshare.com'
     },
     'phone': {
       'type': 'string',
@@ -1357,7 +1357,7 @@
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
   'format': 'email',
-  'default': 'steemit@steemit.com'
+  'default': 'earthshare@earthshare.com'
 }</pre>" data-html="true">
   <td>params.userData?.email</td>
   <td>string</td>
@@ -1411,10 +1411,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.is_email_registered%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22steemit%40steemit.com%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20false%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.is_email_registered%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22earthshare%40earthshare.com%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20false%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.is_email_registered%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22steemit%40steemit.com%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.is_email_registered%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22email%22%3A%20%22earthshare%40earthshare.com%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -1440,7 +1440,7 @@
     'email': {
       'type': 'string',
       'format': 'email',
-      'default': 'steemit@steemit.com'
+      'default': 'earthshare@earthshare.com'
     }
   },
   'required': [
@@ -1454,7 +1454,7 @@
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
   'format': 'email',
-  'default': 'steemit@steemit.com'
+  'default': 'earthshare@earthshare.com'
 }</pre>" data-html="true">
   <td>params.email</td>
   <td>string</td>
@@ -2219,10 +2219,10 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22user_context%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22user_context%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%7D%0A%7D")'>
             Show Example
           </button>
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%22user_context%22%3A%20%22steemit%22%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.get_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%22user_context%22%3A%20%22earthshare%22%0A%20%20%20%20%7D%0A%7D")'>
             Send Request
           </button>
         </div>
@@ -2247,13 +2247,13 @@
   'properties': {
     'name': {
       'type': 'string',
-      'description': 'steem blockchain account',
-      'default': 'steemit'
+      'description': 'earthshare blockchain account',
+      'default': 'earthshare'
     },
     'user_context': {
       'description': 'the user performing the search',
       'type': 'string',
-      'default': 'steemit'
+      'default': 'earthshare'
     }
   },
   'required': [
@@ -2266,17 +2266,17 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'type': 'string',
-  'description': 'steem blockchain account',
-  'default': 'steemit'
+  'description': 'earthshare blockchain account',
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params.name</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
   'description': 'the user performing the search',
   'type': 'string',
-  'default': 'steemit'
+  'default': 'earthshare'
 }</pre>" data-html="true">
   <td>params?.user_context</td>
   <td>string</td>
@@ -2298,8 +2298,8 @@
     'properties': {
         'name': {
             'type': 'string',
-            'description': 'steem blockchain account',
-            'default': 'steemit'
+            'description': 'earthshare blockchain account',
+            'default': 'earthshare'
         },
         'vote_sp': {
             'description': 'SP minus delegated away plus delegated to',
@@ -2390,12 +2390,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'type': 'string',
-    'description': 'steem blockchain account',
-    'default': 'steemit'
+    'description': 'earthshare blockchain account',
+    'default': 'earthshare'
 }</pre>" data-html="true">
   <td>result?.name</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'description': 'SP minus delegated away plus delegated to',
@@ -2567,7 +2567,7 @@
 
       <div class="summary-container">
         <div class="float-right">
-          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.autocomplete_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account_substring%22%3A%20%22ste%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22recent%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22friend%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22global%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22steemit%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%7D%0A%7D")'>
+          <button type="button" class="btn btn-outline-primary btn-sm" onclick='showExampleModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.autocomplete_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account_substring%22%3A%20%22ste%22%0A%20%20%20%20%7D%0A%7D", "%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22result%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22recent%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22friend%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%22global%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22earthshare%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22vote_sp%22%3A%20100.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22joined_at%22%3A%20%222016-03-24T17%3A00%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22reputation%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22bad_actor%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22verified%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context%22%3A%20%7B%7D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.recent_sends%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_following%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_follower%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22context.is_muted%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22tags%22%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22none%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22value_sp%22%3A%201000.1%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22followers%22%3A%20100%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22following%22%3A%20100%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%7D%0A%7D")'>
             Show Example
           </button>
           <button type="button" class="btn btn-outline-primary btn-sm" onclick='showSendRequestModal("%7B%0A%20%20%20%20%22jsonrpc%22%3A%20%222.0%22%2C%0A%20%20%20%20%22id%22%3A%20%221234567890%22%2C%0A%20%20%20%20%22method%22%3A%20%22conveyor.autocomplete_account%22%2C%0A%20%20%20%20%22params%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22account_substring%22%3A%20%22ste%22%0A%20%20%20%20%7D%0A%7D")'>
@@ -2633,8 +2633,8 @@
                 'properties': {
                     'name': {
                         'type': 'string',
-                        'description': 'steem blockchain account',
-                        'default': 'steemit'
+                        'description': 'earthshare blockchain account',
+                        'default': 'earthshare'
                     },
                     'vote_sp': {
                         'description': 'SP minus delegated away plus delegated to',
@@ -2729,8 +2729,8 @@
                 'properties': {
                     'name': {
                         'type': 'string',
-                        'description': 'steem blockchain account',
-                        'default': 'steemit'
+                        'description': 'earthshare blockchain account',
+                        'default': 'earthshare'
                     },
                     'vote_sp': {
                         'description': 'SP minus delegated away plus delegated to',
@@ -2825,8 +2825,8 @@
                 'properties': {
                     'name': {
                         'type': 'string',
-                        'description': 'steem blockchain account',
-                        'default': 'steemit'
+                        'description': 'earthshare blockchain account',
+                        'default': 'earthshare'
                     },
                     'vote_sp': {
                         'description': 'SP minus delegated away plus delegated to',
@@ -2927,8 +2927,8 @@
         'properties': {
             'name': {
                 'type': 'string',
-                'description': 'steem blockchain account',
-                'default': 'steemit'
+                'description': 'earthshare blockchain account',
+                'default': 'earthshare'
             },
             'vote_sp': {
                 'description': 'SP minus delegated away plus delegated to',
@@ -3024,8 +3024,8 @@
     'properties': {
         'name': {
             'type': 'string',
-            'description': 'steem blockchain account',
-            'default': 'steemit'
+            'description': 'earthshare blockchain account',
+            'default': 'earthshare'
         },
         'vote_sp': {
             'description': 'SP minus delegated away plus delegated to',
@@ -3116,12 +3116,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'type': 'string',
-    'description': 'steem blockchain account',
-    'default': 'steemit'
+    'description': 'earthshare blockchain account',
+    'default': 'earthshare'
 }</pre>" data-html="true">
   <td>result?.recent[#]?.name</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'description': 'SP minus delegated away plus delegated to',
@@ -3281,8 +3281,8 @@
         'properties': {
             'name': {
                 'type': 'string',
-                'description': 'steem blockchain account',
-                'default': 'steemit'
+                'description': 'earthshare blockchain account',
+                'default': 'earthshare'
             },
             'vote_sp': {
                 'description': 'SP minus delegated away plus delegated to',
@@ -3378,8 +3378,8 @@
     'properties': {
         'name': {
             'type': 'string',
-            'description': 'steem blockchain account',
-            'default': 'steemit'
+            'description': 'earthshare blockchain account',
+            'default': 'earthshare'
         },
         'vote_sp': {
             'description': 'SP minus delegated away plus delegated to',
@@ -3470,12 +3470,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'type': 'string',
-    'description': 'steem blockchain account',
-    'default': 'steemit'
+    'description': 'earthshare blockchain account',
+    'default': 'earthshare'
 }</pre>" data-html="true">
   <td>result?.friend[#]?.name</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'description': 'SP minus delegated away plus delegated to',
@@ -3635,8 +3635,8 @@
         'properties': {
             'name': {
                 'type': 'string',
-                'description': 'steem blockchain account',
-                'default': 'steemit'
+                'description': 'earthshare blockchain account',
+                'default': 'earthshare'
             },
             'vote_sp': {
                 'description': 'SP minus delegated away plus delegated to',
@@ -3732,8 +3732,8 @@
     'properties': {
         'name': {
             'type': 'string',
-            'description': 'steem blockchain account',
-            'default': 'steemit'
+            'description': 'earthshare blockchain account',
+            'default': 'earthshare'
         },
         'vote_sp': {
             'description': 'SP minus delegated away plus delegated to',
@@ -3824,12 +3824,12 @@
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'type': 'string',
-    'description': 'steem blockchain account',
-    'default': 'steemit'
+    'description': 'earthshare blockchain account',
+    'default': 'earthshare'
 }</pre>" data-html="true">
   <td>result?.global[#]?.name</td>
   <td>string</td>
-  <td>steem blockchain account</td>
+  <td>earthshare blockchain account</td>
 </tr>
 <tr tabindex="1" data-trigger="hover focus" data-toggle="popover" data-content="<pre class='schema-preview'>{
     'description': 'SP minus delegated away plus delegated to',

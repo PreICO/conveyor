@@ -1,13 +1,16 @@
 num_workers = 0
 port = 8080
-rpc_node = 'https://api.steemit.com'
-admin_role = 'steem'
+rpc_node = 'https://a.earthshare.network'
+admin_role = 'faucet'
 [storage]
 type = 's3'
 [[log]]
 level = 'info'
 out = 'stdout'
 [database]
+database = 'faucet'
+host = 'faucet-db'
+username = 'faucet'
 dialect = 'postgres'
 [database.dialectOptions]
 ssl = true

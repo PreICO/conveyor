@@ -63,7 +63,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 
 ### Result
 
@@ -85,7 +85,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.list_drafts",
   "params": {
-    "account": "steemit"
+    "account": "earthshare"
   }
 }
 ```
@@ -121,7 +121,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name                | Type   | Description              |
 | ------------------- | ------ | ------------------------ |
 | params              | object |                          |
-| params.account      | string | steem blockchain account |
+| params.account      | string | earthshare blockchain account |
 | params.draft        | object |                          |
 | params.draft?.title | string |                          |
 | params.draft?.body  | string |                          |
@@ -143,7 +143,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.save_draft",
   "params": {
-    "account": "steemit",
+    "account": "earthshare",
     "draft": {
       "title": "example draft title",
       "body": "example draft body"
@@ -179,7 +179,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 | params.uuid    | string |                          |
 
 ### Result
@@ -199,7 +199,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.remove_draft",
   "params": {
-    "account": "steemit",
+    "account": "earthshare",
     "uuid": "dce998f6-b811-4181-a056-19886a6db7c6"
   }
 }
@@ -232,7 +232,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 | params.flag    | string |                          |
 
 ### Result
@@ -251,7 +251,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.get_feature_flag",
   "params": {
-    "account": "steemit",
+    "account": "earthshare",
     "flag": "example-flag"
   }
 }
@@ -282,7 +282,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 | params.flag    | string |                          |
 | params.value   |        |                          |
 
@@ -302,7 +302,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.set_feature_flag",
   "params": {
-    "account": "steemit",
+    "account": "earthshare",
     "flag": "example-flag"
   }
 }
@@ -333,7 +333,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 
 ### Result
 
@@ -351,7 +351,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.get_feature_flags",
   "params": {
-    "account": "steemit"
+    "account": "earthshare"
   }
 }
 ```
@@ -476,7 +476,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name           | Type   | Description              |
 | -------------- | ------ | ------------------------ |
 | params         | object |                          |
-| params.account | string | steem blockchain account |
+| params.account | string | earthshare blockchain account |
 
 ### Result
 
@@ -496,7 +496,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.get_user_data",
   "params": {
-    "account": "steemit"
+    "account": "earthshare"
   }
 }
 ```
@@ -508,7 +508,7 @@ _Authenticated: requires signature of account or an admin account._
   "jsonrpc": "2.0",
   "id": "1234567890",
   "result": {
-    "email": "steemit@steemit.com",
+    "email": "earthshare@earthshare.com",
     "phone": "+10008675309"
   }
 }
@@ -529,7 +529,7 @@ _Authenticated: requires signature of account or an admin account._
 | Name                   | Type   | Description              |
 | ---------------------- | ------ | ------------------------ |
 | params                 | object |                          |
-| params.account         | string | steem blockchain account |
+| params.account         | string | earthshare blockchain account |
 | params.userData        | object |                          |
 | params.userData?.email | string |                          |
 | params.userData?.phone | string |                          |
@@ -550,9 +550,9 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.set_user_data",
   "params": {
-    "account": "steemit",
+    "account": "earthshare",
     "userData": {
-      "email": "steemit@steemit.com",
+      "email": "earthshare@earthshare.com",
       "phone": "+10008675309"
     }
   }
@@ -602,7 +602,7 @@ _Authenticated: requires signature of account or an admin account._
   "id": "1234567890",
   "method": "conveyor.is_email_registered",
   "params": {
-    "email": "steemit@steemit.com"
+    "email": "earthshare@earthshare.com"
   }
 }
 ```
@@ -973,7 +973,7 @@ _Authenticated: requires signature of an admin account._
 | Name                 | Type   | Description                    |
 | -------------------- | ------ | ------------------------------ |
 | params               | object |                                |
-| params.name          | string | steem blockchain account       |
+| params.name          | string | earthshare blockchain account       |
 | params?.user_context | string | the user performing the search |
 
 ### Result
@@ -981,7 +981,7 @@ _Authenticated: requires signature of an admin account._
 | Name                         | Type    | Description                               |
 | ---------------------------- | ------- | ----------------------------------------- |
 | result                       | object  |                                           |
-| result?.name                 | string  | steem blockchain account                  |
+| result?.name                 | string  | earthshare blockchain account                  |
 | result?.vote_sp              | number  | SP minus delegated away plus delegated to |
 | result?.joined_at            | string  | account creation date                     |
 | result?.reputation           | number  | legacy rep score (centered at 25)         |
@@ -1006,8 +1006,8 @@ _Authenticated: requires signature of an admin account._
   "id": "1234567890",
   "method": "conveyor.get_account",
   "params": {
-    "name": "steemit",
-    "user_context": "steemit"
+    "name": "earthshare",
+    "user_context": "earthshare"
   }
 }
 ```
@@ -1019,7 +1019,7 @@ _Authenticated: requires signature of an admin account._
   "jsonrpc": "2.0",
   "id": "1234567890",
   "result": {
-    "name": "steemit",
+    "name": "earthshare",
     "vote_sp": 100.1,
     "joined_at": "2016-03-24T17:00",
     "reputation": 100,
@@ -1058,7 +1058,7 @@ _Authenticated: requires signature of an admin account._
 | result                                  | object  |                                           |
 | result?.recent                          | array   | recently referenced accounts              |
 | result?.recent[#]                       | object  |                                           |
-| result?.recent[#]?.name                 | string  | steem blockchain account                  |
+| result?.recent[#]?.name                 | string  | earthshare blockchain account                  |
 | result?.recent[#]?.vote_sp              | number  | SP minus delegated away plus delegated to |
 | result?.recent[#]?.joined_at            | string  | account creation date                     |
 | result?.recent[#]?.reputation           | number  | legacy rep score (centered at 25)         |
@@ -1074,7 +1074,7 @@ _Authenticated: requires signature of an admin account._
 | result?.recent[#]?.following            | integer | following count                           |
 | result?.friend                          | array   | friend accounts                           |
 | result?.friend[#]                       | object  |                                           |
-| result?.friend[#]?.name                 | string  | steem blockchain account                  |
+| result?.friend[#]?.name                 | string  | earthshare blockchain account                  |
 | result?.friend[#]?.vote_sp              | number  | SP minus delegated away plus delegated to |
 | result?.friend[#]?.joined_at            | string  | account creation date                     |
 | result?.friend[#]?.reputation           | number  | legacy rep score (centered at 25)         |
@@ -1090,7 +1090,7 @@ _Authenticated: requires signature of an admin account._
 | result?.friend[#]?.following            | integer | following count                           |
 | result?.global                          | array   | all accounts                              |
 | result?.global[#]                       | object  |                                           |
-| result?.global[#]?.name                 | string  | steem blockchain account                  |
+| result?.global[#]?.name                 | string  | earthshare blockchain account                  |
 | result?.global[#]?.vote_sp              | number  | SP minus delegated away plus delegated to |
 | result?.global[#]?.joined_at            | string  | account creation date                     |
 | result?.global[#]?.reputation           | number  | legacy rep score (centered at 25)         |
@@ -1129,7 +1129,7 @@ _Authenticated: requires signature of an admin account._
   "result": {
     "recent": [
       {
-        "name": "steemit",
+        "name": "earthshare",
         "vote_sp": 100.1,
         "joined_at": "2016-03-24T17:00",
         "reputation": 100,
@@ -1146,7 +1146,7 @@ _Authenticated: requires signature of an admin account._
     ],
     "friend": [
       {
-        "name": "steemit",
+        "name": "earthshare",
         "vote_sp": 100.1,
         "joined_at": "2016-03-24T17:00",
         "reputation": 100,
@@ -1163,7 +1163,7 @@ _Authenticated: requires signature of an admin account._
     ],
     "global": [
       {
-        "name": "steemit",
+        "name": "earthshare",
         "vote_sp": 100.1,
         "joined_at": "2016-03-24T17:00",
         "reputation": 100,

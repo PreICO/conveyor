@@ -9,7 +9,7 @@ import {join as joinPath} from 'path'
 
 import {RPC, assertThrows} from './common'
 
-// first 1000 steem accounts for every letter of the alphabet
+// first 1000 earthshare accounts for every letter of the alphabet
 const usernames = fs.readFileSync(joinPath(__dirname, 'usernames.txt'))
     .toString('utf8').split('\n')
 

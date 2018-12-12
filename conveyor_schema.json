@@ -107,13 +107,13 @@
     },
     "account_name": {
       "type":"string",
-      "description": "steem blockchain account",
-      "default":"steemit"
+      "description": "earthshare blockchain account",
+      "default":"earthshare"
     },
     "email":{
       "type":"string",
       "format":"email",
-      "default":"steemit@steemit.com"
+      "default":"earthshare@earthshare.network"
     },
     "flag": {
       "type":"string",
@@ -578,7 +578,7 @@
           "user_context": {
             "description": "the user performing the search",
             "type":"string",
-            "default":"steemit"
+            "default":"earthshare"
           }
         },
         "required": ["name"]

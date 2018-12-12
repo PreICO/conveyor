@@ -1,5 +1,5 @@
 /**
- * @file Steem price APIs.
+ * @file Earthshare price APIs.
  * @author Johan Nordberg <johan@steemit.com>
  */
 
@@ -8,7 +8,7 @@ import {Asset, Price} from 'dsteem'
 
 import {client} from './common'
 
-const ONE_STEEM = new Asset(1, 'STEEM')
+const ONE_STEEM = new Asset(1, 'ESH')
 
 export async function getPrices(this: JCtx) {
 
@@ -19,17 +19,17 @@ export async function getPrices(this: JCtx) {
         client.database.getDynamicGlobalProperties(),
     ])
 
-    // calculate the STEEM<>SBD price using the internal market
+    // calculate the ESH<>EBD price using the internal market
     // we average the lowest ask and highest bid to get market price
     const prices = orders.asks.concat(orders.bids).map((order) => Price.from(order.order_price))
     const sbdPerSteem = prices.reduce((t, p) => t + p.convert(ONE_STEEM).amount, 0) / prices.length
 
-    // STEEM<>USD is reported by witnesses
-    // (unit reported is SBD but under the assumption that 1 USD always equals 1 SBD)
+    // ESH<>USD is reported by witnesses
+    // (unit reported is EBD but under the assumption that 1 USD always equals 1 EBD)
     const steemUsdPrice = Price.from(feed.price_history[feed.price_history.length - 1])
     const usdPerSteem = steemUsdPrice.convert(ONE_STEEM).amount
 
-    // VESTS<>STEEM price
+    // VESTS<>ESH price
     const vestsPrice = Price.from({
         base: props.total_vesting_fund_steem,
         quote: props.total_vesting_shares,
